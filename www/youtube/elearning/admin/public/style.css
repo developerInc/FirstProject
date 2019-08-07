@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+
+#header{height: 100%; height: 60px; background: rgb(43, 107, 226)}
+
+#logo{width: 20%; height: 60px; float: left}
+#logo h2{text-align: center; line-height: 60px}
+#logo h2 a{text-decoration: none; color: grey; text-shadow: 3px 3px 3px #000}
+
+#title{width: 60%; height: 60px; float: left}
+#title h2{color: #fff; text-align: center; text-shadow: 3px 3px 3px #000; line-height: 60px}
+
+#link{width: 20%; height: 60px; float: left}
+#link h3{text-align: center; line-height: 60px}
+#link h3 a{text-decoration: none; color: #fff; display: block}
+#link h3:hover{background: #74889e}
+
+#bodyleft{width: 20%; height: 500px; background:#3f5267; float: left; overflow-y: auto}
+#bodyleft h3{margin-bottom: 2%; line-height: 30px; font-weight: normal; color: #fff; text-align: center; font-size: 14px; background: #74889e; height: 30px}
+#bodyleft ul{list-style-type: none;}
+#bodyleft ul li{width: 100%; height: 30px; line-height: 30px; padding-left: 5%; box-sizing: border-box}
+#bodyleft ul li a{text-decoration: none; color: #fff; font-size: 12px}
+#bodyleft ul li:hover{background: #fff}
+#bodyleft ul li:hover a{color: #3f5267}
+
+#bodyright{width: 80%; height: 500px; background:#3f5267; float: left; overflow-y: auto}
+#bodyright h3{margin-bottom: 2%; line-height: 30px; font-weight: normal; color: #fff; text-align: center; font-size: 14px; background: #74889e; height: 30px}
+
+#add{width: 100%; margin: auto; padding: 2%; box-sizing: border-box}
+#add details{width: 60%; margin: auto}
+#add details summary{cursor: pointer; text-align: center; outline: none;  width: 100%; height: 30px; line-height: 30px; color: #3f5267; border: 1px solid #3f5267; font-size: 12px}
+#add details form{background: #74889e; padding: 5%; box-sizing: border-box}
+#add details form input{margin-bottom: 2%; width: 100%; height: 30px; font-size: 12px; outline: none; padding-left: 3%; box-sizing: border-box}
+#add details form select{margin-bottom: 2%; width: 100%; height: 30px; font-size: 12px; outline: none; padding-left: 3%; box-sizing: border-box}
+#add details form button{color: #fff; width: 40%; height: 30%; font-size: 12px; background: none; outline: none; border:1px solid #fff}
+#add details form button:hover{cursor: pointer; background: #fff; color: #3f5267}
+#add table{width: 100%; margin-top: 2%}
+#add table tr th{height: 35px; background: #3f5267; color: #fff; text-align: left; padding-left: 2%; box-sizing: border-box; font-size: 12px}
+#add table tr td{color: #3f5267; height: 30px; padding-left: 2%; box-sizing: border-box; font-size: 14px}
+
+#edit_form{width: 50%; margin: auto; padding: 2%; margin: auto; box-sizing: border-box}
+#edit_form input{margin-bottom: 2%; width: 100%; height: 30px; font-size: 12px; outline: none; padding-left: 3%; box-sizing: border-box}
+#edit_form button{cursor: pointer; color: #3f5267; width: 40%; height: 30%; font-size: 12px; background: none; outline: none; border:1px solid #3f5267}
+#edit_form button:hover{color: #fff; background: #3f5267}
